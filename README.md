@@ -6,3 +6,8 @@ I just recently made-over my resume and decided that my website needed a make-ov
 ### Links
 Not live yet, but will eventually be deployed to:
 http://www.barbarawhiting.net
+
+### Technologies Used
+
+
+### What I learned
