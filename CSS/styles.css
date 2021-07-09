@@ -25,6 +25,18 @@ li {
   display: inline;
 }
 
+.navBtn {
+  background-color: #6F5060;
+  color: #E1E5F2;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  }
+
+.navBtn:hover {
+  background-color: rgba(111,80,96, 80%);
+}
+
 
 /* About Me Section 
 ------------------------------- */
