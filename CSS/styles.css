@@ -1,3 +1,20 @@
+/* ***** Color Palette idea #1 ***** 
+#E1E5F2 - Lavender Web
+#BFDBF7 - Beau Blue
+#1F7A8C - Metallic Seaweed
+#6F5060 - Eggplant
+#022B3A - Gunmetal
+*/
+
+
+
+/* Global styles */
+
+/* Navigation */
+header{
+  background-color: #E1E5F2;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -6,4 +23,40 @@ ul {
 
 li {
   display: inline;
+}
+
+
+/* About Me Section 
+------------------------------- */
+.aboutSection {
+  background-color: #022B3A;
+  color: #E1E5F2;
+}
+
+
+/* Portfolio 
+------------------------------- */
+.portfolioSection {
+  background-color: #1F7A8C;
+}
+
+
+/* Resume 
+------------------------------- */
+.resumeSection {
+  background-color: #BFDBF7;
+}
+
+
+/* Education & Certifications 
+------------------------------- */
+.educationSection {
+  background-color: #e1e5f2;
+}
+
+
+/* Contact Me 
+------------------------------- */
+.contactSection {
+  background-color: #6F5060;
 }
