@@ -10,6 +10,11 @@
 
 /* Global styles */
 
+.content {
+  width: auto;
+  margin: 0 auto;
+}
+
 /* Navigation */
 header{
   background-color: #E1E5F2;
