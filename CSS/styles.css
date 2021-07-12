@@ -13,11 +13,20 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 h2 {
   margin: 0;
+  font-family: 'Otomanopee One', sans-serif;
 }
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+
 
 .content {
   width: 900px;
@@ -95,5 +104,5 @@ li {
 ------------------------------- */
 .contactSection {
   background-color: #6F5060;
-  color: #E1E5F2;;
+  
 }
