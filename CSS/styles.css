@@ -42,6 +42,11 @@ li {
   background-color: rgba(111,80,96, 80%);
 }
 
+.content {
+  width: 900px;
+  margin: 0 auto;
+}
+
 
 /* About Me Section 
 ------------------------------- */
