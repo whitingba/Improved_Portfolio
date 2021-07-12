@@ -8,14 +8,26 @@
 
 
 
-/* Global styles */
+/******* Global styles ******/
 
-.content {
-  width: auto;
-  margin: 0 auto;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-/* Navigation */
+h2 {
+  margin: 0;
+}
+
+.content {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+
+/******* Navigation *******/
 header{
   background-color: #E1E5F2;
 }
@@ -30,6 +42,12 @@ li {
   display: inline;
 }
 
+.header  {
+  width: auto;
+  margin: 0 auto;
+  padding: 20px 0 20px 20px;
+}
+
 .navBtn {
   background-color: #6F5060;
   color: #E1E5F2;
@@ -42,17 +60,13 @@ li {
   background-color: rgba(111,80,96, 80%);
 }
 
-.content {
-  width: 900px;
-  margin: 0 auto;
-}
 
 
 /* About Me Section 
 ------------------------------- */
 .aboutSection {
   background-color: #022B3A;
-  color: #E1E5F2;
+  color: #BFDBF7
 }
 
 
@@ -81,4 +95,5 @@ li {
 ------------------------------- */
 .contactSection {
   background-color: #6F5060;
+  color: #E1E5F2;;
 }
