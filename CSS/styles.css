@@ -19,21 +19,26 @@ body {
 }
 
 h1 {
-  font-size: 75px;
-  
-}
-
-h1, h2 {
+  font-size: 65px;
   margin: 0;
   font-family: 'Otomanopee One', sans-serif;
   text-align: center;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 h3 {
   font-family: 'Lato', sans-serif;
-  font-style: italic;
+    font-size: 25px;
 }
-
 
 
 .content {
@@ -41,6 +46,8 @@ h3 {
   margin: 0 auto;
   padding: 60px 0;
 }
+
+
 
 
 
