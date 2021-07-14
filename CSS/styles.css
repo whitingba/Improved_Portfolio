@@ -137,3 +137,16 @@ header{
   background-color: #6F5060;
   
 }
+
+.myLinks {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.myLinks a {
+  padding: 15px;
+  display: inline-block;
+}
