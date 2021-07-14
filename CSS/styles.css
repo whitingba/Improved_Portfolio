@@ -50,7 +50,7 @@ h3 {
 
 
 .content {
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -122,6 +122,25 @@ header{
 .resumeSection {
   background-color: #BFDBF7;
 }
+
+#workNote {
+  text-align: center;
+}
+
+.jobItem h3 {
+  font-weight: bolder;
+}
+
+.jobItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.jobSummary p {
+  text-align: justify;
+}
+
+
 
 
 /* Education & Certifications 
