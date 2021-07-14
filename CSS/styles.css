@@ -10,6 +10,14 @@
 
 /******* Global styles ******/
 
+html {
+ box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -56,15 +64,15 @@ header{
   background-color: #E1E5F2;
 }
 
-ul {
+.header ul  {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+} 
 
-li {
+.header li {
   display: inline;
-}
+} 
 
 .header  {
   width: auto;
