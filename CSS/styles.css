@@ -147,6 +147,7 @@ header{
 }
 
 .myLinks a {
+  color: #E1E5F2;
   padding: 15px;
   display: inline-block;
 }
