@@ -1,0 +1,250 @@
+/* ***** Color Palette idea #1 ***** 
+#E1E5F2 - Lavender Web
+#BFDBF7 - Beau Blue
+#1F7A8C - Metallic Seaweed
+#6F5060 - Eggplant
+#022B3A - Gunmetal
+*/
+
+
+
+/******* Global styles ******/
+
+html {
+ box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 65px;
+  margin: 0;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+h3 h4 {
+  font-family: 'Lato', sans-serif;
+    
+}
+
+h4 + p {
+  font-style: italic;
+  margin: 0;
+}
+
+
+
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+
+
+
+/******* Navigation *******/
+header{
+  background-color: #E1E5F2;
+}
+
+.header ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} 
+
+.header li {
+  display: inline;
+} 
+
+.header  {
+  width: auto;
+  margin: 0 auto;
+  padding: 20px 0 20px 20px;
+}
+
+.navBtn {
+  background-color: #6F5060;
+  color: #E1E5F2;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  }
+
+.navBtn:hover {
+  background-color: rgba(111,80,96, 80%);
+}
+
+
+
+/* About Me Section 
+------------------------------- */
+.aboutSection {
+  background-color: #022B3A;
+  color: #BFDBF7
+}
+
+.aboutMe {
+  text-align: justify;
+}
+
+.title {
+  text-align: center;
+}
+
+
+/* Portfolio 
+------------------------------- */
+.portfolioSection {
+  background-color: #1F7A8C;
+}
+
+
+/* Resume 
+------------------------------- */
+.resumeSection {
+  background-color: #BFDBF7;
+}
+
+.resumeSectionLinks {
+ 
+  text-align: center;
+  margin: 20px 0;
+}
+
+.resumeSectionLinks a {
+  background-color:#1F7A8C  ;
+  color: #BFDBF7;
+  padding: 5px 10px ;
+  text-decoration: none;
+  border: 2px solid #022B3A;
+  border-radius: 5px;
+  
+}
+
+
+
+#workNote {
+  text-align: center;
+}
+
+.jobItem h3 {
+  font-weight: bolder;
+}
+
+.jobItem {
+ 
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 200px;
+  column-gap: 20px; 
+}
+
+.jobDetails {
+  text-align: left;;
+}
+
+.jobSummary p {
+  text-align: justify;
+}
+
+
+
+
+/* Education & Certifications 
+------------------------------- */
+.educationSection {
+  background-color: #e1e5f2;
+}
+
+/* .certItem {
+ 
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 200px;
+  column-gap: 20px; 
+} */
+
+
+.certName {
+  font-style: italic;
+ }
+
+
+ .imgCert:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:400px;
+  height:auto;
+  display:block;
+  z-index:999;
+  width: 600px;
+   height: auto;
+   margin-top: 50px;
+ 
+ }
+
+
+ #imgCert2:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
+  height: 600px;
+  width: auto;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+/* Contact Me 
+------------------------------- */
+.contactSection {
+  background-color: #6F5060;
+  
+}
+
+.myLinks {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.myLinks a {
+  color: #E1E5F2;
+  padding: 15px;
+  display: inline-block;
+}
