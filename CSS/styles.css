@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -36,21 +36,26 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  margin: 0 0 40px 0;
   font-family: 'Otomanopee One', sans-serif;
   text-align: center;
   font-size: 30px;
   font-weight: lighter;
 }
 
-h3 h4 {
-  font-family: 'Lato', sans-serif;
-    
+
+
+h4 {
+  margin: 0;
+  font-weight: bolder;
+}
+
+h4 ~ p {
+  margin: 0;
 }
 
 h4 + p {
   font-style: italic;
-  margin: 0;
 }
 
 
@@ -114,6 +119,7 @@ header{
 
 .title {
   text-align: center;
+  margin: 15px 0;
 }
 
 
@@ -143,18 +149,21 @@ header{
   text-decoration: none;
   border: 2px solid #022B3A;
   border-radius: 5px;
-  
+  margin-right: 10px;
 }
 
 
+.linksDiv {
+  margin: 10px 0;
+}
 
 #workNote {
   text-align: center;
 }
 
-.jobItem h3 {
+/* .jobItem h3 {
   font-weight: bolder;
-}
+} */
 
 .jobItem {
  
@@ -175,6 +184,8 @@ header{
 
 
 
+
+
 /* Education & Certifications 
 ------------------------------- */
 .educationSection {
@@ -188,6 +199,16 @@ header{
   grid-template-rows: 200px;
   column-gap: 20px; 
 } */
+
+
+
+
+/* Certifications 
+------------------------------- */
+.certSection {
+  background-color: #6F5060;
+  
+}
 
 
 .certName {
@@ -225,13 +246,11 @@ header{
 
 
 
-
-
-
 /* Contact Me 
 ------------------------------- */
 .contactSection {
-  background-color: #6F5060;
+  background-color: #022B3A;
+  color: #E1E5F2;
   
 }
 
