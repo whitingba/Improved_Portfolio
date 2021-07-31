@@ -27,6 +27,6 @@
 //   });
 // });
 
-var myCarousel = document.querySelector('#carouselExampleSlidesOnly');
-var carousel = new bootstrap.Carousel(carouselExampleSlidesOnly);
+// var myCarousel = document.querySelector('#carouselExampleSlidesOnly');
+// var carousel = new bootstrap.Carousel(carouselExampleSlidesOnly);
 
