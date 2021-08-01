@@ -225,11 +225,13 @@ header{
   font-style: italic;
  }
 
- .card-header {
-   background-color: #E1E5F2;
-   color: #022B3A;
-  
+ .certImgs {
+   margin: 5px;
  }
+
+
+
+
 /* Original style with hovering over image and enlarging to see certification */
 /* 
  .imgCert:hover {
