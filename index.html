@@ -78,15 +78,43 @@
 
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators my-4">
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Slide One -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="https://via.placeholder.com/350x150?text=First+Slide" alt="First slide">
+              <!-- Slide One Caption -->
+              <div class="carousel-caption d-none d-md-block bg-dark mb-4">
+                <h5>First slide label</h5>
+                <p>First slide information here</p>
+              </div>
             </div>
+
+            <!-- Slide Two -->
             <div class="carousel-item">
               <img class="d-block w-100" src="https://via.placeholder.com/350x150?text=Second+Slide" alt="Second slide">
+              <!-- Slide Two Caption -->
+              <div class="carousel-caption d-none d-md-block bg-dark mb-4">
+                <h5>First slide label</h5>
+                <p>First slide information here</p>
+              </div>
             </div>
+
+            <!-- Slide Three -->
             <div class="carousel-item">
               <img class="d-block w-100" src="https://via.placeholder.com/350x150?text=Third+Slide" alt="Third slide">
+              <!-- Slide Three Caption -->
+              <div class="carousel-caption d-none d-md-block bg-dark mb-4">
+                <h5>First slide label</h5>
+                <p>First slide information here</p>
+              </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -197,7 +225,7 @@
         <!-- Vertical Tabs -->
 
         <div class="tab">
-          <button class="tablinks" onclick="openCert(event, 'Bootcamp')">Bootcamp</button>
+          <button class="tablinks" onclick="openCert(event, 'Bootcamp')" id="defaultOpen">Bootcamp</button>
           <button class="tablinks" onclick="openCert(event, 'ServiceNow')">ServiceNow</button>
           <button class="tablinks" onclick="openCert(event, 'A+')">A+</button>
           <button class="tablinks" onclick="openCert(event, 'Project+')">Project+</button>
@@ -207,6 +235,7 @@
         <div id="Bootcamp" class="tabcontent">
           <h3>Bootcamp</h3>
           <p>Denver University Full Stack Web Development Certificate</p>
+          <a href="#">Certificate</a>
         </div>
 
         <div id="ServiceNow" class="tabcontent">
@@ -231,7 +260,7 @@
 
 
 
-
+        <div class="clearfix"></div>
 
 
 
@@ -332,6 +361,7 @@
 
 
   <!-- <script type="text/javascript" src="js/modal.js"></script> -->
+  <script type="text/javascript" src="js/tabs.js"></script>
 
 
 
