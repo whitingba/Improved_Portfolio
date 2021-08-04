@@ -215,6 +215,7 @@ header{
 #BFDBF7 - Beau Blue
 #1F7A8C - Metallic Seaweed
 #6F5060 - Eggplant
+#A9899A - English Lavender (Eggplant shade)
 #022B3A - Gunmetal */
 
 
@@ -223,14 +224,15 @@ header{
   
 }
 
-.certSection a {
-  background-color:#1F7A8C  ;
+#certSection a {
+  background-color:#5F4552  ;
   color: #BFDBF7;
   padding: 5px 10px ;
   text-decoration: none;
   border: 2px solid #022B3A;
   border-radius: 5px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 
@@ -238,7 +240,7 @@ header{
 .tab {
   float: left;
   border: 1px solid #BFDBF7;
-  background-color: #e1e5f2;
+  background-color: #A9899A;
   width: 30%;
   height: 350px;
 }
@@ -265,7 +267,7 @@ header{
 }
 
 .tab button.active {
-  background-color: #022B3A;
+  background-color: #5F4552;
   color:#BFDBF7;
 }
 
@@ -273,7 +275,7 @@ header{
 float: left;
   padding: 0px 12px;
   border: 1px solid #BFDBF7;
-  background-color: #BFDBF7;
+  background-color: #A9899A;
   width: 70%;
   border-left: none;
   height: 350px;
@@ -282,14 +284,14 @@ float: left;
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 50px; 
+  left: 12%;
   top: 0;
-  width: 75%; /* Full width */
-  height: 75%; /* Full height */
+  width: 75%; 
+  height: 75%; 
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -306,7 +308,7 @@ float: left;
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #d32929;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -321,7 +323,9 @@ float: left;
 
 
 
-
+.clearfix {
+  padding-bottom: 60px;
+}
 
 
 
