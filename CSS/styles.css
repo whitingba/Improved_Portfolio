@@ -2,7 +2,7 @@
 #E1E5F2 - Lavender Web
 #BFDBF7 - Beau Blue
 #1F7A8C - Metallic Seaweed
-#6F5060 - Eggplant
+#832232 - Antique Ruby
 #022B3A - Gunmetal
 */
 
@@ -93,7 +93,7 @@ header{
 }
 
 .navBtn {
-  background-color: #6F5060;
+  background-color: #832232;
   color: #E1E5F2;
   text-decoration: none;
   padding: 5px;
@@ -133,6 +133,9 @@ header{
   position: relative;
   left: 0;
   top: 0;
+  background-color: #022B3A;
+  height: 375px;
+  
 }
 
 
@@ -211,25 +214,21 @@ header{
 
 /* Certifications 
 ------------------------------- */
-/* #E1E5F2 - Lavender Web
-#BFDBF7 - Beau Blue
-#1F7A8C - Metallic Seaweed
-#6F5060 - Eggplant
-#A9899A - English Lavender (Eggplant shade)
-#022B3A - Gunmetal */
+
 
 
 .certSection {
-  background-color: #6F5060;
+  background-color: #832232;
   
 }
 
 #certSection a {
-  background-color:#5F4552  ;
-  color: #BFDBF7;
+  background-color:#832232  ;
+  color: #E1E5F2;
+  font-weight: bolder;
   padding: 5px 10px ;
   text-decoration: none;
-  border: 2px solid #022B3A;
+  border: 1px solid #E1E5F2;
   border-radius: 5px;
   margin-right: 10px;
   cursor: pointer;
@@ -240,7 +239,7 @@ header{
 .tab {
   float: left;
   border: 1px solid #BFDBF7;
-  background-color: #A9899A;
+  background-color: #E1E5F2;
   width: 30%;
   height: 350px;
 }
@@ -263,22 +262,23 @@ header{
 }
 
 .tab button:hover {
-  background-color: #BFDBF7;
+  background-color: #832232;
 }
 
 .tab button.active {
-  background-color: #5F4552;
-  color:#BFDBF7;
+  background-color: #022B3A;
+  color:#E1E5F2;
 }
 
 .tabcontent {
 float: left;
   padding: 0px 12px;
   border: 1px solid #BFDBF7;
-  background-color: #A9899A;
+  background-color: #022B3A;
   width: 70%;
   border-left: none;
   height: 350px;
+  color: #E1E5F2;
 }
 
 
