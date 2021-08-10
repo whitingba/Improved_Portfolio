@@ -70,7 +70,6 @@ h4 + p {
 
 
 
-
 /******* Navigation *******/
 header{
   background-color: #E1E5F2;
@@ -233,7 +232,7 @@ header{
   border: 1px solid #BFDBF7;
   background-color: #E1E5F2;
   width: 30%;
-  height: 350px;
+  height: 450px;
 }
 
 /* Style the tab buttons */
@@ -269,8 +268,13 @@ float: left;
   background-color: #022B3A;
   width: 70%;
   border-left: none;
-  height: 350px;
+  height: 450px;
   color: #E1E5F2;
+}
+
+ul:not(.browser-default)>li {
+  list-style-type: disc;
+
 }
 
 
