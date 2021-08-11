@@ -39,7 +39,7 @@ h2 {
   margin: 0 0 40px 0;
   font-family: 'Otomanopee One', sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: lighter;
 }
 
@@ -195,6 +195,10 @@ header{
   background-color: #e1e5f2;
 }
 
+.educationSection section {
+  padding-bottom: 10px;
+}
+
 /* .certItem {
  
   display: grid;
@@ -275,10 +279,10 @@ float: left;
   color: #E1E5F2;
 }
 
-ul:not(.browser-default)>li {
+/* ul:not(.browser-default)>li {
   list-style-type: disc;
 
-}
+} */
 
 
 /* The Modal (background) */
@@ -329,40 +333,6 @@ ul:not(.browser-default)>li {
 
 
 
-/* Original style with hovering over image and enlarging to see certification */
-/* 
- .imgCert:hover {
-  position:relative;
-  top:-25px;
-  left:-35px;
-  width:400px;
-  height:auto;
-  display:block;
-  z-index:999;
-  width: 600px;
-   height: auto;
-   margin-top: 50px;
- 
- }
-
-
- #imgCert2:hover {
-  position:relative;
-  top:-25px;
-  left:-35px;
-  width:500px;
-  height:auto;
-  display:block;
-  z-index:999;
-  height: 600px;
-  width: auto;
-  margin-top: 50px;
-} */
-
-/* #collapseOne {
-  background-color: #BFDBF7;
-} */
-
 
 
 /* Contact Me 
@@ -376,7 +346,7 @@ ul:not(.browser-default)>li {
 
 
 
-.myLinks {
+#myLinks {
   list-style-type: none;
   padding: 0;
   display: flex;
