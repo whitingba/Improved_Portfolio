@@ -16,3 +16,5 @@ http://www.barbarawhiting.net
 * JavaScript (Modals and Vertical Tabs)
 
 ### What I learned
+
+I original was going to build this new portfolio with 'vanilla' HTML & CSS, but quickly realized that this was silly and Bootstrap and Materialize have some really useful components that would help make my project better.
