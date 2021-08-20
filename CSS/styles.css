@@ -68,6 +68,17 @@ h4 + p {
   padding: 60px 0;
 }
 
+/* target newBorder class and all 'section' children */
+.newBorder > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+
+/* target newBorder class and remove border form the last of type 'section' */
+.newBorder > section:last-of-type {
+  border: none;
+}
+
 
 
 
@@ -173,7 +184,7 @@ header{
  
   display: grid;
   grid-template-columns: 2fr 3fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 150px;
   column-gap: 20px; 
 }
 
@@ -197,7 +208,7 @@ header{
 }
 
 .educationSection section {
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 /* .certItem {
@@ -328,7 +339,7 @@ float: left;
 
 
 .clearfix {
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 
 
