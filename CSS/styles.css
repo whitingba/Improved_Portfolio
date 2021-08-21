@@ -62,9 +62,9 @@ h4 + p {
 
 
 
-.content {
+.container {
   max-width: 800px;
-  width: 85%;
+  /* width: 85%; */
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -146,6 +146,8 @@ header{
 }
 
 
+
+
 /* Work Experience / Resume
 ------------------------------- */
 .resumeSection {
@@ -181,13 +183,13 @@ header{
   font-weight: bolder;
 } */
 
-.jobItem {
+/* .jobItem {
  
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 150px;
   column-gap: 20px; 
-}
+} */
 
 .jobDetails {
   text-align: left;;
@@ -294,7 +296,7 @@ float: left;
   background-color: #022B3A;
   width: 70%;
   border-left: none;
-  height: 450px;
+  min-height: 450px;
   color: #E1E5F2;
 }
 
@@ -377,4 +379,22 @@ float: left;
   color: #E1E5F2;
   padding: 15px;
   display: inline-block;
+}
+
+
+
+
+/* Responsive Styles
+------------------------------- */
+
+@media screen and (min-width: 850px
+) {
+   
+  .jobItem {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 150px;
+    column-gap: 20px;
+}
+
 }
