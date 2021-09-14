@@ -61,7 +61,7 @@
     <section class="aboutSection" id="aboutSection">
       <div class="container">
         <h1>Barbara Whiting</h1>
-        <h2 class="title">Junior Full-stack Web Development</h2>
+        <h2 class="title">Junior Full-stack Web Developer</h2>
         <p class="aboutMe">I have always had a passion for art and design since I was in grade school. I explored the
           many facets of art over the years, as an art student, an architecture student and in my freetime taking
           various art classes. So it was not a far stretch that I would fall in love with software development. To me
@@ -357,147 +357,148 @@
 
 
         <!-- Vertical Tabs -->
+        <div class="tabSection">
+          <div class="tab tabDivs">
+            <button class="tablinks" onclick="openCert(event, 'Bootcamp')" id="defaultOpen">Full-Stack Web Dev.</button>
+            <button class="tablinks" onclick="openCert(event, 'ServiceNow')">ServiceNow</button>
+            <button class="tablinks" onclick="openCert(event, 'A+')">A+</button>
+            <button class="tablinks" onclick="openCert(event, 'Project+')">Project+</button>
+            <button class="tablinks" onclick="openCert(event, 'ITIL')">ITIL</button>
+          </div>
 
-        <div class="tab">
-          <button class="tablinks" onclick="openCert(event, 'Bootcamp')" id="defaultOpen">Full-Stack Web Dev.</button>
-          <button class="tablinks" onclick="openCert(event, 'ServiceNow')">ServiceNow</button>
-          <button class="tablinks" onclick="openCert(event, 'A+')">A+</button>
-          <button class="tablinks" onclick="openCert(event, 'Project+')">Project+</button>
-          <button class="tablinks" onclick="openCert(event, 'ITIL')">ITIL</button>
+          <div id="Bootcamp" class="tabcontent tabDivs">
+            <h3>Full-Stack Web Development</h3>
+            <p>Obtained at Denver University Coding Bootcamp, November 2019</p>
+
+            <p>Technologies Learned:</p>
+            <div class="row">
+              <div class="col">
+                <ul class="myLists"> </ul>
+
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>React.js</li>
+
+
+              </div>
+              <div class="col">
+                <ul class="myLists"></ul>
+                <li>APIs & AJAX</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Heroku Deployment</li>
+
+
+              </div>
+            </div>
+
+            <div class="row">
+              <a id="myBtn" class="myBtn">View Certificate</a>
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="images/Bootcamp certificate.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div id="ServiceNow" class="tabcontent">
+            <h3>ServiceNow</h3>
+            <p>ServiceNow Certified System Administrator</p>
+
+            <div class="row">
+              <div class="col">
+                <ul class="myLists"></ul>
+                <li>Certification received May 2020, current through June 2021</li>
+                <li>IT Service Management Fundamentals Course - July 2021</li>
+
+              </div>
+
+            </div>
+
+
+            <a id="myBtn" class="myBtn">View Certificate</a>
+            <a id="myBtn" class="myBtn"
+              href="https://account.servicenow.com/personal-data/11ea538f0/8e3027a80/a806e4a75/ae71e39ET/resume.html"
+              target="_blank">Now Profile</a>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="images/ServiceNow.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div id="A+" class="tabcontent">
+            <h3>A+</h3>
+            <p>CompTia A+ Certification</p>
+            <p>Completed March 2021</p>
+            <a id="myBtn" class="myBtn">View Certificate</a>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="images/CompTIA A+.jpg">
+              </div>
+            </div>
+          </div>
+
+
+          <div id="Project+" class="tabcontent">
+            <h3>Project+</h3>
+            <p>CompTia Project+ Certification</p>
+            <p>Completed May 2021</p>
+            <a id="myBtn" class="myBtn">View Certificate</a>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="images/CompTIA Project+ certificate.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div id="ITIL" class="tabcontent">
+            <h3>ITIL</h3>
+            <p>Axelos ITIL Certification</p>
+            <p>Completed June 2021</p>
+            <a id="myBtn" class="myBtn">View Certificate</a>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="images/ITIL.JPG">
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
 
-        <div id="Bootcamp" class="tabcontent">
-          <h3>Full-Stack Web Development</h3>
-          <p>Obtained at Denver University Coding Bootcamp, November 2019</p>
-
-          <p>Technologies Learned:</p>
-          <div class="row">
-            <div class="col">
-              <ul class="myLists"> </ul>
-
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>React.js</li>
-
-            </div>
-            <div class="col">
-              <ul class="myLists"></ul>
-              <li>APIs & AJAX</li>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-              <li>Heroku Deployment</li>
-
-
-            </div>
-          </div>
-
-
-          <a id="myBtn" class="myBtn">View Certificate</a>
-
-          <!-- The Modal -->
-          <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <img src="images/Bootcamp certificate.jpg">
-            </div>
-          </div>
-        </div>
-
-        <div id="ServiceNow" class="tabcontent">
-          <h3>ServiceNow</h3>
-          <p>ServiceNow Certified System Administrator</p>
-
-          <div class="row">
-            <div class="col">
-              <ul class="myLists"></ul>
-              <li>Certification received May 2020, current through June 2021</li>
-              <li>IT Service Management Fundamentals Course - July 2021</li>
-
-            </div>
-
-          </div>
-
-
-          <a id="myBtn" class="myBtn">View Certificate</a>
-          <a id="myBtn" class="myBtn"
-            href="https://account.servicenow.com/personal-data/11ea538f0/8e3027a80/a806e4a75/ae71e39ET/resume.html"
-            target="_blank">Now Profile</a>
-
-          <!-- The Modal -->
-          <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <img src="images/ServiceNow.jpg">
-            </div>
-          </div>
-        </div>
-
-        <div id="A+" class="tabcontent">
-          <h3>A+</h3>
-          <p>CompTia A+ Certification</p>
-          <p>Completed March 2021</p>
-          <a id="myBtn" class="myBtn">View Certificate</a>
-
-          <!-- The Modal -->
-          <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <img src="images/CompTIA A+.jpg">
-            </div>
-          </div>
-        </div>
-
-
-        <div id="Project+" class="tabcontent">
-          <h3>Project+</h3>
-          <p>CompTia Project+ Certification</p>
-          <p>Completed May 2021</p>
-          <a id="myBtn" class="myBtn">View Certificate</a>
-          <!-- The Modal -->
-          <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <img src="images/CompTIA Project+ certificate.jpg">
-            </div>
-          </div>
-        </div>
-
-        <div id="ITIL" class="tabcontent">
-          <h3>ITIL</h3>
-          <p>Axelos ITIL Certification</p>
-          <p>Completed June 2021</p>
-          <a id="myBtn" class="myBtn">View Certificate</a>
-          <!-- The Modal -->
-          <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <img src="images/ITIL.JPG">
-            </div>
-          </div>
-        </div>
-
+        <div class="clearfix"></div>
 
 
       </div>
-
-      <div class="clearfix"></div>
-
-
-
 
 
 
